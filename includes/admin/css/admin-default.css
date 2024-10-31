@@ -1,0 +1,282 @@
+#resize-images-in-posts-admin-panel {
+	background-color: #f6f6f6;
+	width: 710px;
+	border-radius: 4px 4px 0 0;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	margin-left: 2px;
+}
+
+#resize-images-in-posts-admin-panel-header {
+	height: 70px;
+	width: 100%;
+}
+
+#resize-images-in-posts-admin-panel-header span {
+	font-size: 20px;
+	line-height: 20px;
+	padding: 25px;
+	margin: 0px;
+	display: block;
+	font-family: "Trebuchet MS";
+}
+
+#resize-images-in-posts-admin-panel-main {
+	border-bottom: 1px solid #DFDFDF;
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+}
+
+#resize-images-in-posts-admin-panel-menu {
+	width: 168px;
+	z-index: 1;
+	position: relative;
+	float: left;
+	margin-bottom: 30px;
+}
+
+#resize-images-in-posts-admin-panel-menu ul {
+	margin: 0px;
+	list-style: none;
+	padding: 0px;
+}
+
+#resize-images-in-posts-admin-panel-menu ul li.open.menu_last {
+	border-bottom: none;
+}
+
+#resize-images-in-posts-admin-panel-menu ul li h3 {
+	background-color: #fafafa;
+}
+
+#resize-images-in-posts-admin-panel-menu ul li h3:hover {
+	background-color: #F5F5F5;
+	color: #222222;
+}
+
+#resize-images-in-posts-admin-panel-menu ul li.open h3 {
+	background-color: #F5F5F5;
+}
+
+#resize-images-in-posts-admin-panel-menu ul li ul {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #F5F5F5;
+}
+
+#resize-images-in-posts-admin-panel-menu ul li ul li {
+	margin: 0px;
+}
+
+#resize-images-in-posts-admin-panel-menu ul li ul li h3 {
+	padding: 10px 15px;
+	position: relative;
+	margin: 0px;
+	border-top: 1px solid #F5F5F5;
+	border-bottom: 1px solid #F5F5F5;
+	cursor: pointer;
+	color: #606060;
+}
+
+#resize-images-in-posts-admin-panel-menu ul li.open ul li.submenu_open h3 {
+	background-color: #fafafa;
+	border-top: 1px solid #DFDFDF;
+	border-bottom: 1px solid #DFDFDF;
+	border-right: 1px solid #fafafa;
+	margin-right: -1px;
+	color: #222222;
+}
+
+#resize-images-in-posts-admin-panel-menu ul li.open ul li.submenu_open h3 span {
+	position: absolute;
+	height: 100%;
+	width: 4px;
+	top: 0px;
+	left: 0px;
+}
+
+#resize-images-in-posts-admin-panel-menu ul li ul li h3:after {
+	content: '';
+}
+
+#resize-images-in-posts-admin-panel-menu h3 {
+	font-size: 14px;
+	border: none;
+}
+
+.resize-images-in-posts-admin-panel-content {
+	border-left: 1px solid #DFDFDF;
+	background-color: #FAFAFA;
+}
+
+#resize-images-in-posts-admin-panel-content {
+	float: left;
+	min-height: 450px;
+	width: 539px;
+}
+
+#resize-images-in-posts-admin-panel-content .resize-images-in-posts-menu-content {
+	display: none;
+	padding: 10px 10px 0;
+}
+
+#resize-images-in-posts-admin-panel-content .resize-images-in-posts-menu-content.open {
+	display: block;
+}
+
+#resize-images-in-posts-admin-panel-content .resize-images-in-posts-submenu-content {
+	display: none;
+}
+
+#resize-images-in-posts-admin-panel-content .resize-images-in-posts-submenu-content.submenu_open {
+	display: block;
+}
+
+#resize-images-in-posts-admin-panel-content .resize-images-in-posts-submenu-content .resize-images-in-posts-row {
+	padding-bottom: 20px;
+}
+
+.resize-images-in-posts-row-description {
+	padding: 0 15px;
+}
+
+.resize-images-in-posts-row .resize_images_in_posts__h3 {
+    color: #4B4B4B;
+    float: left;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding-bottom: 8px;
+    padding-top: 2px;
+}
+
+.resize-images-in-posts-row .resize-images-in-posts-row-title-resize-images-in-posts-checkbox {
+    color: #4B4B4B;
+    float: left;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding-bottom: 8px;
+    margin-right: 20px;
+    padding-top: 2px;
+}
+
+.resize-images-in-posts-row input.resize_images_in_posts__input {
+	margin: 0px;
+}
+
+.resize-images-in-posts-row .resize_images_in_posts__input_text {
+	width: 100%;
+}
+
+.resize-images-in-posts-row .resize-images-in-posts-inside-table {
+	display: table;
+	width: 100%;
+	box-sizing: border-box;
+	border-collapse: collapse;
+}
+
+.resize-images-in-posts-row .resize_images_in_posts__table_cell {
+	vertical-align: top;
+    border: 15px solid transparent;
+}
+
+.resize-images-in-posts-row .table_cell_resize_images_in_posts__h3 {
+	width: 150px;
+	min-width: 150px;
+}
+
+.resize-images-in-posts-row .table_cell_resize_images_in_posts__h3_title_checkbox {
+	width: 300px;
+	min-width: 300px;
+}
+
+.resize-images-in-posts-row .table_cell_resize_images_in_posts__full_width {
+	width: 100%;
+}
+
+.resize-images-in-posts-row .table_cell_resize_images_in_posts__280 {
+	width: 280px;
+}
+
+.resize-images-in-posts-row .resize-images-in-posts-inside-table-resize-images-in-posts-checkbox {
+	float: left;
+}
+
+.resize-images-in-posts-row .resize_images_in_posts__textarea {
+	width: 100%;
+	margin: 0px;
+	min-height: 135px;
+	resize: vertical;
+}
+
+.resize-images-in-posts-row .resize_images_in_posts__textarea.code-text {
+    word-break: break-all;
+    word-wrap: break-word;
+	font-family: monospace;
+	line-height: 16px;
+}
+
+.resize-images-in-posts-row .resize_images_in_posts__select {
+	width: 100%;
+	margin: 0px;
+}
+
+.resize-images-in-posts-row p.true {
+	margin: 0;
+	color: green;
+	line-height: 12px;
+	padding-top: 7px;
+	padding-bottom: 2px;
+	font-size: 12px;
+}
+
+.resize_images_in_posts__row p.false {
+	margin: 0;
+	color: red;
+	line-height: 12px;
+	padding-top: 7px;
+	padding-bottom: 2px;
+	font-size: 12px;
+}
+
+.resize-images-in-posts-row small {
+	color: #717171;
+}
+
+textarea[readonly] {
+    background-color: #EEEEEE;
+}
+
+.resize-images-in-posts-row select.resize_images_in_posts__multiple[multiple] {
+	width: 240px;
+	height: 135px;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+.resize-images-in-posts-row .resize_images_in_posts__input_checkbox {
+	margin: 0px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+#resize-images-in-posts-admin-panel-content .visible {
+	display: block;
+}
+
+#resize-images-in-posts-admin-panel-footer {
+	border-bottom: 1px solid #DFDFDF;
+	border-left: 1px solid #DFDFDF;
+	border-right: 1px solid #DFDFDF;
+	padding: 15px 20px;
+}
+
+#submit-button {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
